@@ -98,7 +98,10 @@ app.get('/authentificationactivate/:token', async (req,res) => {
 //     console.log('My REST API RUNNING on mort 3000!');
 // })
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT;
 app.listen(port, () => {
     console.log(`Servervis running on port: ${port}`);
 });
+
+
+{/* <br><br><center><a href="/confirmer/<%= id_user %>/<%= volid.id %>/<%= nombre_places_selected %>/<%= idReservation %>" class="btn btn-outline-danger" style="background:#f96b13;border:1px solid #f96b13;text-decoration:none;padding:20px 30px;color:#ffffff;border-radius:4px;display:inline-block;font-family:Arial,Helvetica,Verdana,sans-serif;font-size:20px">confirmer</a></center> */}
